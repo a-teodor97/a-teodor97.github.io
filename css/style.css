@@ -319,14 +319,7 @@ header .curve svg .shape-fill {
   align-items: center;
   justify-content: center;
 }
-.portfolio
-  .grid-container
-  .portfolio-grid
-  .card-1
-  .card-info
-  .card-buttons
-  a
-  i {
+.portfolio .grid-container .portfolio-grid .card-1 .card-info .card-buttons a i {
   display: inline-block;
   height: 45px;
   width: 45px;
