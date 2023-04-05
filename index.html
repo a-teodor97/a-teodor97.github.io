@@ -4,15 +4,56 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <meta
+      name="description"
+      content="This is the personal portfolio website of Teodor Agape, frontend web developer, built with HTML and Sass."
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
-    </style>
+
+    <!-- Facebook Open Graph Meta Tags -->
+    <meta property="og:url" content="https://a-teodor97.github.io/portfolio-website/">
+    <meta property="og:title" content="Hi, I'm Teodor - Web Developer">
+    <meta property="og:description" content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product">
+    <meta property="og:image" content="https://a-teodor97.github.io/portfolio-website/images/thumbnail.jpg">
+
+    <!-- Twitter Open Graph Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="a-teodor97.github.io">
+    <meta property="twitter:url" content="https://a-teodor97.github.io/portfolio-website/">
+    <meta name="twitter:title" content="Hi, I'm Teodor - Web Developer">
+    <meta name="twitter:description" content="A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product">
+    <meta name="twitter:image" content="https://a-teodor97.github.io/portfolio-website/images/thumbnail.jpg">
+
+
+    <!-- FAVICON  -->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+
+    <!-- FAVICON -->
+
     <title>Hi, I'm Teodor - Web Developer</title>
+    
   </head>
   <body>
     <!-- HEADER -->
@@ -28,7 +69,7 @@
           </ul>
         </nav>
       </div>
-
+      <!-- <img src="./assets/images/curve.svg" /> -->
       <div class="curve">
         <svg
           data-name="Layer 1"
@@ -51,8 +92,8 @@
 
     <section class="home" id="home">
       <div class="content">
-        <h2>Hi, I'm <span>Teodor Agape</span></h2>
-        <h4>Web Developer</h4>
+        <h1>Hi, I'm <span>Teodor Agape</span></h1>
+        <h2>Web Developer</h2>
         <p>
           A Frontend focused Web Developer building the Frontend of Websites and
           Web Applications that leads to the success of the overall product
@@ -83,13 +124,17 @@
     <section class="skills-container" id="skills">
       <h1 class="skills-title">Skills</h1>
       <div class="skills-logos">
-        <img src="images/html-logo.svg" class="html-logo" alt="html logo" />
-        <img src="images/css-logo.svg" alt="css logo" />
-        <img src="images/sass-logo.svg" alt="Sass logo" />
-        <!-- <img src="images/tailwind-logo.svg" alt="Tailwind logo" /> -->
-        <img src="images/js-logo.svg" alt="JavaScript logo" />
-        <!-- <img src="images/react-logo.svg" alt="React logo" /> -->
-        <!-- <img src="images/wordpress-logo.svg" alt="wordpress-logo" /> -->
+        <img
+          src="./assets/images/html-logo.svg"
+          class="html-logo"
+          alt="html logo"
+        />
+        <img src="./assets/images/css-logo.svg" alt="css logo" />
+        <img src="./assets/images/sass-logo.svg" alt="Sass logo" />
+        <!-- <img src="./assets/images/tailwind-logo.svg" alt="Tailwind logo" /> -->
+        <img src="./assets/images/js-logo.svg" alt="JavaScript logo" />
+        <!-- <img src="./assets/images/react-logo.svg" alt="React logo" /> -->
+        <!-- <img src="./assets/images/wordpress-logo.svg" alt="wordpress-logo" /> -->
       </div>
     </section>
 
@@ -100,11 +145,15 @@
       <div class="grid-container">
         <div class="portfolio-grid">
           <div class="card card-1">
-            <img class="thumbnail-img-1" src="./images/thumbnail.jpg" alt="" />
+            <img
+              class="thumbnail-img-1"
+              src="./assets/images/thumbnail.jpg"
+              alt="thumbnail img of the Project"
+            />
             <div class="card-info">
               <p>
                 This is my personal portfolio website you currently are
-                browsing. Built whit HTML, CSS and SASS
+                browsing. Built with HTML, CSS and SASS
               </p>
               <div class="card-buttons">
                 <a
@@ -152,23 +201,25 @@
       <h1>Let's get in touch!</h1>
       <div class="contact-me">
         <p>Do you have a question or want to work together?</p>
-        <div class="contact-container">
-          <div class="linkedin-contact">
-            <p>Here's my Linkedin profile</p>
-            <a
-              href="https://www.linkedin.com/in/teodor-agape-116319172/"
-              target="_blank"
-            >
-              <i class="fa-brands fa-linkedin fa-2x"></i>
-            </a>
-          </div>
-          <div class="email-contact">
-            <p>Or you can write me an email:</p>
-            <a href="mailto:teodor.agape@yahoo.com" class="email-link"
-              >teodor.agape@yahoo.com</a
-            >
-          </div>
-        </div>
+        <p>Contact me</p>
+        <div class="form-purple-line"></div>
+        <div class="form-container">
+         <form action="https://formsubmit.co/your@email.com" method="POST" class="form"/>
+           <input type="text" name="name" class="field" placeholder="Your Name" required>
+           <input type="email" name="email" class="field" placeholder="Your Email" required>
+           <input type="text" name="phone-number" class="field" placeholder="Your Phone number (not required)">
+           <textarea class="field" rows="5" placeholder="Message"></textarea>
+           <button type="submit">Send</button>
+         </form>
+
+        <div class="form-purple-line"></div>
+        <a
+        href="https://www.linkedin.com/in/teodor-agape-116319172/"
+        target="_blank"
+      >
+        <i class="fa-brands fa-linkedin fa-xl"></i>
+      </a>
+    </div>
       </div>
 
       <div class="curve-3">
