@@ -265,7 +265,7 @@ header .curve svg .shape-fill {
   transition: 0.25s;
 }
 .portfolio .grid-container .portfolio-grid .card:hover {
-  transform: translateY(-15px);
+  transform: translateY(-5px);
 }
 .portfolio .grid-container .portfolio-grid .card-1,
 .portfolio .grid-container .portfolio-grid .card-2,
