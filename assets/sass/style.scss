@@ -328,13 +328,15 @@ header {
         }
       }
 
-      .card-1 {
+      .card-1,
+      .card-2 {
         background-image: url();
         background-size: 300px;
         background-position: center;
         overflow: hidden;
 
-        .thumbnail-img-1 {
+        .thumbnail-img-1,
+        .thumbnail-img-2 {
           width: 300px;
           box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
         }
@@ -348,6 +350,7 @@ header {
             display: flex;
             align-items: center;
             justify-content: center;
+            gap: 25px;
             a i {
               display: inline-block;
               height: 45px;
@@ -356,6 +359,10 @@ header {
             }
           }
         }
+      }
+
+      .card-2 a i {
+        margin-top: 35px;
       }
     }
   }
