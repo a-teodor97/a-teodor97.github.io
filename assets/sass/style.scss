@@ -299,14 +299,14 @@ header {
         transform: translateY(-5px);
       }
 
-      .card-1,
-      .card-2,
-      .card-3,
+      // .card-1,
+      // .card-2,
+      // .card-3,
       .card-4 {
         text-align: center;
         align-items: center;
 
-        .tech-name {
+        .tech-logo-container {
           display: flex;
           margin: 0 auto;
           border-bottom: 1px solid $primary-color;
@@ -316,6 +316,10 @@ header {
           justify-content: center;
           color: #777;
           font-size: 32px;
+          .project-tech-logo {
+            width: 120x;
+            height: 120px;
+          }
         }
         .coming-soon {
           display: flex;
@@ -329,7 +333,8 @@ header {
       }
 
       .card-1,
-      .card-2 {
+      .card-2,
+      .card-3 {
         background-image: url();
         background-size: 300px;
         background-position: center;
