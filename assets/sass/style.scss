@@ -672,7 +672,8 @@ header {
     }
 
     .skills-logos {
-      width: 80%;
+      width: 100% !important;
+      // margin: none !important;
 
       img {
         height: 60px;

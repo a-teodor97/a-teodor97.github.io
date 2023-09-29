@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -282,7 +283,12 @@ header .curve svg .shape-fill {
   color: #777;
   font-size: 32px;
 }
-.portfolio .grid-container .portfolio-grid .card-4 .tech-logo-container .project-tech-logo {
+.portfolio
+  .grid-container
+  .portfolio-grid
+  .card-4
+  .tech-logo-container
+  .project-tech-logo {
   width: 120x;
   height: 120px;
 }
@@ -329,7 +335,14 @@ header .curve svg .shape-fill {
 }
 .portfolio .grid-container .portfolio-grid .card-1 .card-info .card-buttons a i,
 .portfolio .grid-container .portfolio-grid .card-2 .card-info .card-buttons a i,
-.portfolio .grid-container .portfolio-grid .card-3 .card-info .card-buttons a i {
+.portfolio
+  .grid-container
+  .portfolio-grid
+  .card-3
+  .card-info
+  .card-buttons
+  a
+  i {
   display: inline-block;
   height: 45px;
   width: 45px;
