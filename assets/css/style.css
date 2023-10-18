@@ -268,11 +268,11 @@ header .curve svg .shape-fill {
 .portfolio .grid-container .portfolio-grid .card:hover {
   transform: translateY(-5px);
 }
-.portfolio .grid-container .portfolio-grid .card-4 {
+.portfolio .grid-container .portfolio-grid .card-5 {
   text-align: center;
   align-items: center;
 }
-.portfolio .grid-container .portfolio-grid .card-4 .tech-logo-container {
+.portfolio .grid-container .portfolio-grid .card-5 .tech-logo-container {
   display: flex;
   margin: 0 auto;
   border-bottom: 1px solid #7d2ae8;
@@ -286,13 +286,13 @@ header .curve svg .shape-fill {
 .portfolio
   .grid-container
   .portfolio-grid
-  .card-4
+  .card-5
   .tech-logo-container
   .project-tech-logo {
   width: 120x;
   height: 120px;
 }
-.portfolio .grid-container .portfolio-grid .card-4 .coming-soon {
+.portfolio .grid-container .portfolio-grid .card-5 .coming-soon {
   display: flex;
   margin: 0 auto;
   height: 50%;
@@ -303,7 +303,8 @@ header .curve svg .shape-fill {
 }
 .portfolio .grid-container .portfolio-grid .card-1,
 .portfolio .grid-container .portfolio-grid .card-2,
-.portfolio .grid-container .portfolio-grid .card-3 {
+.portfolio .grid-container .portfolio-grid .card-3,
+.portfolio .grid-container .portfolio-grid .card-4 {
   background-image: url();
   background-size: 300px;
   background-position: center;
@@ -314,20 +315,24 @@ header .curve svg .shape-fill {
 .portfolio .grid-container .portfolio-grid .card-2 .thumbnail-img-1,
 .portfolio .grid-container .portfolio-grid .card-2 .thumbnail-img-2,
 .portfolio .grid-container .portfolio-grid .card-3 .thumbnail-img-1,
-.portfolio .grid-container .portfolio-grid .card-3 .thumbnail-img-2 {
+.portfolio .grid-container .portfolio-grid .card-3 .thumbnail-img-2,
+.portfolio .grid-container .portfolio-grid .card-4 .thumbnail-img-1,
+.portfolio .grid-container .portfolio-grid .card-4 .thumbnail-img-2 {
   width: 300px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 }
 .portfolio .grid-container .portfolio-grid .card-1 .card-info p,
 .portfolio .grid-container .portfolio-grid .card-2 .card-info p,
-.portfolio .grid-container .portfolio-grid .card-3 .card-info p {
+.portfolio .grid-container .portfolio-grid .card-3 .card-info p,
+.portfolio .grid-container .portfolio-grid .card-4 .card-info p {
   padding: 10px;
   color: #555;
   font-size: 16px;
 }
 .portfolio .grid-container .portfolio-grid .card-1 .card-info .card-buttons,
 .portfolio .grid-container .portfolio-grid .card-2 .card-info .card-buttons,
-.portfolio .grid-container .portfolio-grid .card-3 .card-info .card-buttons {
+.portfolio .grid-container .portfolio-grid .card-3 .card-info .card-buttons,
+.portfolio .grid-container .portfolio-grid .card-4 .card-info .card-buttons {
   display: flex;
   align-items: center;
   justify-content: center;
